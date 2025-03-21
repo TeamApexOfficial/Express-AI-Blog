@@ -114,6 +114,63 @@ th {
     color: white;
 }
 
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Team Member */
+.team-member {
+    background: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+}
+
+/* Images */
+.team-member img {
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Headings & Text */
+h2 {
+    margin: 10px 0;
+}
+
+.role {
+    font-weight: bold;
+    color: #333;
+}
+
+.share {
+    font-style: italic;
+    color: #555;
+}
+
+/* Footer */
+.footer-text {
+    font-size: 16px;
+    margin: 20px;
+    color: #222;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .team-container {
+        flex-direction: column;
+    }
+}
+
 /* Footer */
 .footer {
     background: #222;
